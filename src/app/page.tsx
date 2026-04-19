@@ -23,6 +23,14 @@ export default function Home() {
       {/* Hero Section */}
       <section className="min-h-screen flex items-center justify-center px-6 pt-20">
         <div className="max-w-4xl mx-auto text-center">
+          {/* Hero Image */}
+          <div className="mb-12 relative">
+            <img
+              src="/hero-placeholder.svg"
+              alt="Manila Creatives Hero"
+              className="w-full max-w-2xl mx-auto rounded-2xl shadow-2xl shadow-[#FF6B4A]/20"
+            />
+          </div>
           <h1 className="text-5xl md:text-7xl font-bold tracking-tight mb-6 leading-tight">
             We craft high-performance websites that{" "}
             <span className="text-[#FF6B4A]">grow your business</span>
