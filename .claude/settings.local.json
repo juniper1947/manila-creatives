@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(gh auth *)",
+      "Bash(brew install *)",
+      "Bash(curl -s https://brew.sh)",
+      "Bash(open *)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(sudo ls *)",
+      "Bash(curl -s https://api.github.com/repos/cli/cli/releases/latest)",
+      "Read(//private/tmp/**)",
+      "Bash(curl -sL https://github.com/cli/cli/releases/download/v2.90.0/gh_2.90.0_macOS_amd64.zip -o gh.zip)",
+      "Bash(unzip -q gh.zip)",
+      "Bash(/tmp/gh_2.90.0_macOS_amd64/bin/gh auth *)",
+      "Bash(/tmp/gh_2.90.0_macOS_amd64/bin/gh repo *)",
+      "Bash(curl *)",
+      "Bash(mdfind -onlyin ~ \"kMDItemDisplayName == *ScreenShot*\")",
+      "Bash(git push *)",
+      "Bash(mkdir -p ~/.claude/memory)",
+      "Bash(cp -r \"/Users/kone/.claude/projects/-Volumes-WD-SSD-VSCODE-Automation/memory/\"* ~/.claude/memory/)",
+      "Bash(git config *)",
+      "Bash(git remote *)",
+      "Bash(chmod +x deploy.sh)",
+      "Bash(npm run *)",
+      "Bash(./deploy.sh ' *)"
+    ]
+  }
+}
